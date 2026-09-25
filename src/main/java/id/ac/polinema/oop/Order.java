@@ -38,8 +38,8 @@ public class Order {
 
     public double getFinalTotal() {
         double total = getTotal();
-        if (total >= 100000.0) { // FIXED
-            return total * 0.9; // FIXED
+        if (total >= 100000.0) { 
+            return total * 1.0;
         }
         return total;
     }
