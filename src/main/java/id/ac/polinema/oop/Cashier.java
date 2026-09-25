@@ -5,7 +5,7 @@ public class Cashier {
     }
 
     public double calculateChange(Order order, double cash) {
-        // Bug 3: offset change slightly
-        return cash - order.getFinalTotal() - 10.0;
+
+        return cash - order.getFinalTotal() - 10/100 * order.getFinalTotal();
     }
 }
