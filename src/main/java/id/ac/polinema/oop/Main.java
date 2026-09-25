@@ -31,3 +31,5 @@ public class Main {
         System.out.println("Change   : " + cashier.calculateChange(order, cash));
     }
 }
+
+// percobaan 3
